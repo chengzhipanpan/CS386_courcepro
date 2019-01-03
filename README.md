@@ -21,17 +21,12 @@ We also use ECSSD and HKU-IS dataset to validate the efficiency of our model.
 
 Results
 ----------------
-dog | bird | cat
-----|------|----
-foo | foo  | foo
-bar | bar  | bar
-baz | baz  | baz
-F-score on different datasets:
+###### F-score on different datasets:
 Tables        | MSRA-B validation | ECSSD  | HKU-IS |
 ------------- |-------------------| -----  | -------|
  E-HED+RBD    |     0.9329        | 0.9268 | 0.9305 |
  E-HED+BRN    |     0.9302        | 0.9244 | 0.9267 |
-MAE on different datasets:
+###### MAE on different datasets:
 Tables        | MSRA-B validation | ECSSD | HKU-IS |
 ------------- |:------------------| ----- | -------|
  E-HED+RBD    |       0.0593      |0.0414 | 0.0446 |
